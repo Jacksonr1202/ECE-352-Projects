@@ -1,0 +1,127 @@
+{C:/ECE 352/AHW2/AHW2 Repo/FA.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/FA.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/mult3x2.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/mult3x2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult3x2
+
+Top level modules:
+	mult3x2
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/bcd7seg.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/bcd7seg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bcd7seg
+
+Top level modules:
+	bcd7seg
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add4_tb
+
+Top level modules:
+	add4_tb
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/mult2x2_tb.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/mult2x2_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult2x2_tb
+
+Top level modules:
+	mult2x2_tb
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult3x2_tb
+
+Top level modules:
+	mult3x2_tb
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/bcd7seg_tb.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/bcd7seg_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bcd7seg_tb
+
+Top level modules:
+	bcd7seg_tb
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/segAdec.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/segAdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segAdec
+
+Top level modules:
+	segAdec
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/segBdec.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/segBdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segBdec
+
+Top level modules:
+	segBdec
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/segCdec.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/segCdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segCdec
+
+Top level modules:
+	segCdec
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/mult2x2.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/mult2x2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult2x2
+
+Top level modules:
+	mult2x2
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/segDdec.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/segDdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segDdec
+
+Top level modules:
+	segDdec
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/segEdec.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/segEdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segEdec
+
+Top level modules:
+	segEdec
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RELU4_tb
+
+Top level modules:
+	RELU4_tb
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/segFdec.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/segFdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segFdec
+
+Top level modules:
+	segFdec
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/segGdec.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/segGdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segGdec
+
+Top level modules:
+	segGdec
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/RELU4.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/RELU4.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RELU4
+
+Top level modules:
+	RELU4
+
+} {} {}} {C:/ECE 352/AHW2/AHW2 Repo/add4.sv} {1 {vlog -work work -sv -stats=none {C:/ECE 352/AHW2/AHW2 Repo/add4.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add4
+
+Top level modules:
+	add4
+
+} {} {}}

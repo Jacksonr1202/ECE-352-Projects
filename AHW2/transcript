@@ -1,0 +1,436 @@
+# Compile of bcd7seg_tb.sv was successful.
+# Compile of bcd7seg.sv was successful.
+# Compile of segAdec.sv was successful.
+# Compile of segBdec.sv was successful.
+# Compile of segCdec.sv was successful.
+# Compile of segDdec.sv was successful.
+# Compile of segEdec.sv was successful.
+# Compile of segFdec.sv was successful.
+# Compile of segGdec.sv failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of segGdec.sv failed with 3 errors.
+# Compile of segGdec.sv was successful.
+vsim -gui work.bcd7seg_tb
+# vsim -gui work.bcd7seg_tb 
+# Start time: 15:34:19 on Feb 14,2025
+# Loading sv_std.std
+# Loading work.bcd7seg_tb
+# Loading work.bcd7seg
+# Loading work.segAdec
+# Loading work.segBdec
+# Loading work.segCdec
+# Loading work.segDdec
+# Loading work.segEdec
+# Loading work.segFdec
+# Loading work.segGdec
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'num'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/bcd7seg.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /bcd7seg_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/bcd7seg_tb.sv Line: 12
+add wave -position insertpoint  \
+{sim:/bcd7seg_tb/iDUT/num[3]} \
+{sim:/bcd7seg_tb/iDUT/num[2]} \
+{sim:/bcd7seg_tb/iDUT/num[1]} \
+{sim:/bcd7seg_tb/iDUT/num[0]}
+add wave -position insertpoint  \
+{sim:/bcd7seg_tb/iDUT/seg[6]} \
+{sim:/bcd7seg_tb/iDUT/seg[5]} \
+{sim:/bcd7seg_tb/iDUT/seg[4]} \
+{sim:/bcd7seg_tb/iDUT/seg[3]} \
+{sim:/bcd7seg_tb/iDUT/seg[2]} \
+{sim:/bcd7seg_tb/iDUT/seg[1]} \
+{sim:/bcd7seg_tb/iDUT/seg[0]}
+run -all
+# YAHOO! test for bcd7seg passed
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/bcd7seg_tb.sv(26)
+#    Time: 80 ps  Iteration: 0  Instance: /bcd7seg_tb
+# Break in Module bcd7seg_tb at C:/ECE 352/AHW2/AHW2 Repo/bcd7seg_tb.sv line 26
+quit -sim
+# End time: 15:31:33 on Feb 17,2025, Elapsed time: 71:57:14
+# Errors: 0, Warnings: 11
+# Load canceled
+# Compile of mult2x2.sv failed with 1 errors.
+# Compile of mult2x2.sv was successful.
+# Compile of mult2x2_tb.sv was successful.
+vsim -gui work.mult2x2_tb
+# vsim -gui work.mult2x2_tb 
+# Start time: 15:33:58 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.mult2x2_tb
+# Loading work.mult2x2
+add wave -position insertpoint  \
+{sim:/mult2x2_tb/iDUT/X[1]} \
+{sim:/mult2x2_tb/iDUT/X[0]}
+add wave -position insertpoint  \
+{sim:/mult2x2_tb/iDUT/W[1]} \
+{sim:/mult2x2_tb/iDUT/W[0]}
+add wave -position insertpoint  \
+sim:/mult2x2_tb/iDUT/OUT1 \
+sim:/mult2x2_tb/iDUT/OUT2
+# Load canceled
+run -all
+# Looking good so far
+# YAHOO! all tests passed for mult2x2
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/mult2x2_tb.sv(87)
+#    Time: 45 ps  Iteration: 0  Instance: /mult2x2_tb
+# Break in Module mult2x2_tb at C:/ECE 352/AHW2/AHW2 Repo/mult2x2_tb.sv line 87
+quit -sim
+# End time: 18:03:22 on Feb 17,2025, Elapsed time: 2:29:24
+# Errors: 0, Warnings: 4
+# Compile of mult3x2.sv was successful.
+# Load canceled
+# Compile of mult3x2_tb.sv was successful.
+vsim -gui work.mult3x2_tb
+# vsim -gui work.mult3x2_tb 
+# Start time: 18:04:06 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.mult3x2_tb
+# Loading work.mult3x2
+add wave -position insertpoint  \
+{sim:/mult3x2_tb/iDUT/Z[2]} \
+{sim:/mult3x2_tb/iDUT/Z[1]} \
+{sim:/mult3x2_tb/iDUT/Z[0]}
+add wave -position insertpoint  \
+{sim:/mult3x2_tb/iDUT/U[1]} \
+{sim:/mult3x2_tb/iDUT/U[0]}
+add wave -position insertpoint  \
+{sim:/mult3x2_tb/iDUT/prod[2]} \
+{sim:/mult3x2_tb/iDUT/prod[1]} \
+{sim:/mult3x2_tb/iDUT/prod[0]}
+run -all
+# ERROR: -1 * -3 should be 3
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv(18)
+#    Time: 5 ps  Iteration: 0  Instance: /mult3x2_tb
+# Break in Module mult3x2_tb at C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv line 18
+quit -sim
+# End time: 18:17:29 on Feb 17,2025, Elapsed time: 0:13:23
+# Errors: 0, Warnings: 3
+# Compile of mult3x2.sv was successful.
+vsim -gui work.mult3x2_tb
+# vsim -gui work.mult3x2_tb 
+# Start time: 18:17:50 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.mult3x2_tb
+# Loading work.mult3x2
+add wave -position insertpoint  \
+{sim:/mult3x2_tb/iDUT/Z[2]} \
+{sim:/mult3x2_tb/iDUT/Z[1]} \
+{sim:/mult3x2_tb/iDUT/Z[0]}
+add wave -position insertpoint  \
+{sim:/mult3x2_tb/iDUT/U[1]} \
+{sim:/mult3x2_tb/iDUT/U[0]}
+add wave -position insertpoint  \
+{sim:/mult3x2_tb/iDUT/prod[2]} \
+{sim:/mult3x2_tb/iDUT/prod[1]} \
+{sim:/mult3x2_tb/iDUT/prod[0]}
+run -all
+# ERROR: -1 * -3 should be 3
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv(18)
+#    Time: 5 ps  Iteration: 0  Instance: /mult3x2_tb
+# Break in Module mult3x2_tb at C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv line 18
+quit -sim
+# End time: 18:19:45 on Feb 17,2025, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 2
+vsim -gui work.mult3x2_tb
+# vsim -gui work.mult3x2_tb 
+# Start time: 18:19:59 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.mult3x2_tb
+# Loading work.mult3x2
+add wave -position insertpoint  \
+sim:/mult3x2_tb/Z \
+{sim:/mult3x2_tb/Z[2]} \
+{sim:/mult3x2_tb/Z[1]} \
+{sim:/mult3x2_tb/Z[0]} \
+sim:/mult3x2_tb/U \
+{sim:/mult3x2_tb/U[1]} \
+{sim:/mult3x2_tb/U[0]} \
+sim:/mult3x2_tb/prod \
+{sim:/mult3x2_tb/prod[2]} \
+{sim:/mult3x2_tb/prod[1]} \
+{sim:/mult3x2_tb/prod[0]}
+run -all
+# ERROR: -1 * -3 should be 3
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv(18)
+#    Time: 5 ps  Iteration: 0  Instance: /mult3x2_tb
+# Break in Module mult3x2_tb at C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv line 18
+quit -sim
+# End time: 18:28:51 on Feb 17,2025, Elapsed time: 0:08:52
+# Errors: 0, Warnings: 1
+# Compile of mult3x2.sv failed with 1 errors.
+# Compile of mult3x2.sv was successful.
+vsim -gui work.mult3x2_tb
+# vsim -gui work.mult3x2_tb 
+# Start time: 18:29:47 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.mult3x2_tb
+# Loading work.mult3x2
+# ** Error: (vsim-3043) Unresolved reference to 'mult2x2'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult3x2_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/mult3x2.sv Line: 14
+# ** Error: (vsim-3043) Unresolved reference to 'mult2x2'.
+#    Time: 0 ps  Iteration: 0  Instance: /mult3x2_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/mult3x2.sv Line: 14
+# ** Error: (vsim-3996) Formal 'prod' does not exist in call mult2x2.
+#    Time: 0 ps  Iteration: 0  Instance: /mult3x2_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/mult3x2.sv Line: 14
+# ** Error: (vsim-3996) Formal 'X' does not exist in call mult2x2.
+#    Time: 0 ps  Iteration: 0  Instance: /mult3x2_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/mult3x2.sv Line: 14
+# ** Error: (vsim-3996) Formal 'W' does not exist in call mult2x2.
+#    Time: 0 ps  Iteration: 0  Instance: /mult3x2_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/mult3x2.sv Line: 14
+# Error loading design
+# End time: 18:29:47 on Feb 17,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 3
+# Compile of mult3x2.sv failed with 1 errors.
+# Compile of mult3x2.sv failed with 1 errors.
+# Compile of mult3x2.sv was successful.
+vsim -gui work.mult3x2_tb
+# vsim -gui work.mult3x2_tb 
+# Start time: 18:40:29 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.mult3x2_tb
+# Loading work.mult3x2
+add wave -position insertpoint  \
+{sim:/mult3x2_tb/iDUT/Z[2]} \
+{sim:/mult3x2_tb/iDUT/Z[1]} \
+{sim:/mult3x2_tb/iDUT/Z[0]} \
+sim:/mult3x2_tb/iDUT/U \
+{sim:/mult3x2_tb/iDUT/U[1]} \
+{sim:/mult3x2_tb/iDUT/U[0]} \
+sim:/mult3x2_tb/iDUT/prod \
+{sim:/mult3x2_tb/iDUT/prod[2]} \
+{sim:/mult3x2_tb/iDUT/prod[1]} \
+{sim:/mult3x2_tb/iDUT/prod[0]}
+run -all
+# Getting there!
+# YAHOO!! test passed for mult3x2!
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv(56)
+#    Time: 25 ps  Iteration: 0  Instance: /mult3x2_tb
+# Break in Module mult3x2_tb at C:/ECE 352/AHW2/AHW2 Repo/mult3x2_tb.sv line 56
+quit -sim
+# End time: 18:50:52 on Feb 17,2025, Elapsed time: 0:10:23
+# Errors: 0, Warnings: 4
+# Compile of RELU4.sv was successful.
+# Compile of RELU4_tb.sv was successful.
+vsim -gui work.RELU4_tb
+# vsim -gui work.RELU4_tb 
+# Start time: 18:51:29 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.RELU4_tb
+# Loading work.RELU4
+add wave -position insertpoint  \
+{sim:/RELU4_tb/iDUT/Y[3]} \
+{sim:/RELU4_tb/iDUT/Y[2]} \
+{sim:/RELU4_tb/iDUT/Y[1]} \
+{sim:/RELU4_tb/iDUT/Y[0]} \
+sim:/RELU4_tb/iDUT/Yrect \
+{sim:/RELU4_tb/iDUT/Yrect[3]} \
+{sim:/RELU4_tb/iDUT/Yrect[2]} \
+{sim:/RELU4_tb/iDUT/Yrect[1]} \
+{sim:/RELU4_tb/iDUT/Yrect[0]}
+run -all
+# Almost too easy right?
+# ERROR: RELU of 1001 should be 0000
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv(32)
+#    Time: 15 ps  Iteration: 0  Instance: /RELU4_tb
+# Break in Module RELU4_tb at C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv line 32
+quit -sim
+# End time: 18:54:59 on Feb 17,2025, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 3
+# Compile of RELU4.sv was successful.
+vsim -gui work.RELU4_tb
+# vsim -gui work.RELU4_tb 
+# Start time: 18:55:19 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.RELU4_tb
+# Loading work.RELU4
+run -all
+# Almost too easy right?
+# Yahoo! all tests passed for RELU4
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv(50)
+#    Time: 25 ps  Iteration: 0  Instance: /RELU4_tb
+# Break in Module RELU4_tb at C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv line 50
+add wave -position insertpoint  \
+{sim:/RELU4_tb/iDUT/Y[3]} \
+{sim:/RELU4_tb/iDUT/Y[2]} \
+{sim:/RELU4_tb/iDUT/Y[1]} \
+{sim:/RELU4_tb/iDUT/Y[0]} \
+sim:/RELU4_tb/iDUT/Yrect \
+{sim:/RELU4_tb/iDUT/Yrect[3]} \
+{sim:/RELU4_tb/iDUT/Yrect[2]} \
+{sim:/RELU4_tb/iDUT/Yrect[1]} \
+{sim:/RELU4_tb/iDUT/Yrect[0]}
+run -all
+vsim -gui work.RELU4_tb
+# End time: 18:56:03 on Feb 17,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 2
+# vsim -gui work.RELU4_tb 
+# Start time: 18:56:03 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.RELU4_tb
+# Loading work.RELU4
+add wave -position insertpoint  \
+{sim:/RELU4_tb/iDUT/Y[3]} \
+{sim:/RELU4_tb/iDUT/Y[2]} \
+{sim:/RELU4_tb/iDUT/Y[1]} \
+{sim:/RELU4_tb/iDUT/Y[0]} \
+sim:/RELU4_tb/iDUT/Yrect \
+{sim:/RELU4_tb/iDUT/Yrect[3]} \
+{sim:/RELU4_tb/iDUT/Yrect[2]} \
+{sim:/RELU4_tb/iDUT/Yrect[1]} \
+{sim:/RELU4_tb/iDUT/Yrect[0]}
+run -all
+# Almost too easy right?
+# Yahoo! all tests passed for RELU4
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv(50)
+#    Time: 25 ps  Iteration: 0  Instance: /RELU4_tb
+# Break in Module RELU4_tb at C:/ECE 352/AHW2/AHW2 Repo/RELU4_tb.sv line 50
+# Compile of add4.sv failed with 1 errors.
+quit -sim
+# End time: 19:29:31 on Feb 17,2025, Elapsed time: 0:33:28
+# Errors: 0, Warnings: 2
+# Compile of add4.sv failed with 1 errors.
+# Compile of add4.sv failed with 1 errors.
+# Compile of add4.sv was successful.
+# Compile of add4_tb.sv was successful.
+vsim -gui work.add4_tb
+# vsim -gui work.add4_tb 
+# Start time: 19:32:35 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.add4_tb
+# Loading work.add4
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 16
+#         Searched libraries:
+#             C:/ECE 352/AHW2/AHW2 Repo/work
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 17
+#         Searched libraries:
+#             C:/ECE 352/AHW2/AHW2 Repo/work
+# Error loading design
+# End time: 19:32:35 on Feb 17,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 5
+# Compile of FA.sv was successful.
+vsim -gui work.add4_tb
+# vsim -gui work.add4_tb 
+# Start time: 19:32:59 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.add4_tb
+# Loading work.add4
+# Loading work.FA
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'S'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'Cout'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'A'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'B'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'Cin'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 16
+add wave -position insertpoint  \
+{sim:/add4_tb/iDUT/A[3]} \
+{sim:/add4_tb/iDUT/A[2]} \
+{sim:/add4_tb/iDUT/A[1]} \
+{sim:/add4_tb/iDUT/A[0]} \
+sim:/add4_tb/iDUT/B \
+{sim:/add4_tb/iDUT/B[3]} \
+{sim:/add4_tb/iDUT/B[2]} \
+{sim:/add4_tb/iDUT/B[1]} \
+{sim:/add4_tb/iDUT/B[0]} \
+sim:/add4_tb/iDUT/S \
+{sim:/add4_tb/iDUT/S[3]} \
+{sim:/add4_tb/iDUT/S[2]} \
+{sim:/add4_tb/iDUT/S[1]} \
+{sim:/add4_tb/iDUT/S[0]} \
+sim:/add4_tb/iDUT/C \
+{sim:/add4_tb/iDUT/C[4]} \
+{sim:/add4_tb/iDUT/C[3]} \
+{sim:/add4_tb/iDUT/C[2]} \
+{sim:/add4_tb/iDUT/C[1]} \
+{sim:/add4_tb/iDUT/C[0]}
+run -all
+# ERR: expected sum is F
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv(24)
+#    Time: 5 ps  Iteration: 0  Instance: /add4_tb
+# Break in Module add4_tb at C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv line 24
+quit -sim
+# End time: 19:37:41 on Feb 17,2025, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 7
+# Compile of add4.sv failed with 1 errors.
+# Compile of add4.sv failed with 1 errors.
+# Compile of add4.sv was successful.
+vsim -gui work.add4_tb
+# vsim -gui work.add4_tb 
+# Start time: 19:47:13 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.add4_tb
+# Loading work.add4
+# Loading work.FA
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'S'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'Cout'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'A'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'B'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'Cin'. The port definition is at: C:/ECE 352/AHW2/AHW2 Repo/FA.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /add4_tb/iDUT/FA4 File: C:/ECE 352/AHW2/AHW2 Repo/add4.sv Line: 17
+add wave -position insertpoint  \
+{sim:/add4_tb/iDUT/A[3]} \
+{sim:/add4_tb/iDUT/A[2]} \
+{sim:/add4_tb/iDUT/A[1]} \
+{sim:/add4_tb/iDUT/A[0]} \
+sim:/add4_tb/iDUT/B \
+{sim:/add4_tb/iDUT/B[3]} \
+{sim:/add4_tb/iDUT/B[2]} \
+{sim:/add4_tb/iDUT/B[1]} \
+{sim:/add4_tb/iDUT/B[0]} \
+sim:/add4_tb/iDUT/S \
+{sim:/add4_tb/iDUT/S[3]} \
+{sim:/add4_tb/iDUT/S[2]} \
+{sim:/add4_tb/iDUT/S[1]} \
+{sim:/add4_tb/iDUT/S[0]} \
+sim:/add4_tb/iDUT/C \
+{sim:/add4_tb/iDUT/C[4]} \
+{sim:/add4_tb/iDUT/C[3]} \
+{sim:/add4_tb/iDUT/C[2]} \
+{sim:/add4_tb/iDUT/C[1]} \
+{sim:/add4_tb/iDUT/C[0]}
+run -all
+# ERR: expected sum is F
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv(24)
+#    Time: 5 ps  Iteration: 0  Instance: /add4_tb
+# Break in Module add4_tb at C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv line 24
+quit -sim
+# End time: 19:50:38 on Feb 17,2025, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 9
+# Compile of add4.sv was successful.
+vsim -gui work.add4_tb
+# vsim -gui work.add4_tb 
+# Start time: 19:50:56 on Feb 17,2025
+# Loading sv_std.std
+# Loading work.add4_tb
+# Loading work.add4
+# Loading work.FA
+add wave -position insertpoint  \
+{sim:/add4_tb/A[3]} \
+{sim:/add4_tb/A[2]} \
+{sim:/add4_tb/A[1]} \
+{sim:/add4_tb/A[0]} \
+sim:/add4_tb/B \
+{sim:/add4_tb/B[3]} \
+{sim:/add4_tb/B[2]} \
+{sim:/add4_tb/B[1]} \
+{sim:/add4_tb/B[0]} \
+sim:/add4_tb/S \
+{sim:/add4_tb/S[3]} \
+{sim:/add4_tb/S[2]} \
+{sim:/add4_tb/S[1]} \
+{sim:/add4_tb/S[0]}
+run -all
+# GOOD passed first add
+# GOOD passed second add
+# GOOD passed third add
+# YAHOO! passed tests for add4
+# ** Note: $stop    : C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv(42)
+#    Time: 15 ps  Iteration: 0  Instance: /add4_tb
+# Break in Module add4_tb at C:/ECE 352/AHW2/AHW2 Repo/add4_tb.sv line 42
+# End time: 22:05:30 on Feb 17,2025, Elapsed time: 2:14:34
+# Errors: 0, Warnings: 2
