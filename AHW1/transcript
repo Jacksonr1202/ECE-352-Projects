@@ -1,0 +1,49 @@
+# Compile of RCA32.sv failed with 1 errors.
+# Compile of RCA32.sv was successful.
+# Compile of RCA32_tb.sv was successful.
+vsim -gui work.RCA32_tb
+# vsim -gui work.RCA32_tb 
+# Start time: 15:22:42 on Feb 05,2025
+# Loading sv_std.std
+# Loading work.RCA32_tb
+# Loading work.RCA32
+# Loading work.FA
+add wave -position insertpoint  \
+sim:/RCA32_tb/iDUT/A \
+sim:/RCA32_tb/iDUT/B \
+sim:/RCA32_tb/iDUT/Cin \
+sim:/RCA32_tb/iDUT/S \
+sim:/RCA32_tb/iDUT/Cout \
+sim:/RCA32_tb/iDUT/Carries
+run -all
+# Lets start with a couple of classic vectors for adder
+# GOOD: now lets try some random values
+# YAHOO!! test passed
+# ** Note: $stop    : C:/ECE 352/AHW1/AHW1/RCA32_tb.sv(61)
+#    Time: 85 ps  Iteration: 0  Instance: /RCA32_tb
+# Break in Module RCA32_tb at C:/ECE 352/AHW1/AHW1/RCA32_tb.sv line 61
+quit -sim
+vsim -gui work.FA_tb
+# End time: 15:30:45 on Feb 05,2025, Elapsed time: 0:08:03
+# Errors: 0, Warnings: 4
+# vsim -gui work.FA_tb 
+# Start time: 15:30:45 on Feb 05,2025
+# Loading sv_std.std
+# Loading work.FA_tb
+# Loading work.FA
+add wave -position insertpoint  \
+sim:/FA_tb/iDUT/A \
+sim:/FA_tb/iDUT/B \
+sim:/FA_tb/iDUT/Cin \
+sim:/FA_tb/iDUT/S \
+sim:/FA_tb/iDUT/Cout \
+sim:/FA_tb/iDUT/N1 \
+sim:/FA_tb/iDUT/N2 \
+sim:/FA_tb/iDUT/N4
+run -all
+# YAHOO!! test passed
+# ** Note: $stop    : C:/ECE 352/AHW1/AHW1/FA_tb.sv(35)
+#    Time: 40 ps  Iteration: 0  Instance: /FA_tb
+# Break in Module FA_tb at C:/ECE 352/AHW1/AHW1/FA_tb.sv line 35
+# End time: 20:08:14 on Feb 07,2025, Elapsed time: 52:37:29
+# Errors: 0, Warnings: 1
